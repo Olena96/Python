@@ -3,3 +3,4 @@ requests==2.31.0
 pytest-xdist==3.5.0
 flake8==6.1.0
 selenium==4.16.0
+calculator==1.1.0
