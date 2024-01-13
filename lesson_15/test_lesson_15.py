@@ -7,10 +7,11 @@
 
 import pytest
 from datetime import datetime
-from calculator import Calculator
+from lesson_15 import Calculator
 
 class TestCalculator:
     @classmethod
+
     def setup_class(cls):
         cls.setup_time = datetime.now()
         with open("test_log.txt", "a") as file:
